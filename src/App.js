@@ -1,18 +1,15 @@
-
-
+import ProfileCard from "./ProfileCard";
 
 function App() {
   return (
-    <div className="wrapper">
-      <textarea
-        readOnly
-        maxLength={3}
-        spellCheck
-        style={{ backgroundColor: "gray" }}
-      />
-      <h1>HI</h1>
+    <div>
+      <div>Personal Digital Assistants</div>
+
+      <ProfileCard title="Alexa" handle="@alexa99" />
+      <ProfileCard title="Cortana" handle="@cotana32" />
+      <ProfileCard title="Siri" handle="@siri01" />
     </div>
   );
 }
 
-export default App
+export default App;
