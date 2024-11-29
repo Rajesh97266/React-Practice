@@ -6,15 +6,7 @@ function ProfileCard({ title, handle }) {
     <div>
       <div>This is {title}</div>
       <div>This is {handle}</div>
-      <div>This is {title}</div>
-      <div>This is {handle}</div>
-      <div>This is {title}</div>
-      <div>This is {handle}</div>
-
-      <div>This is {title}</div>
-      <div>This is {handle}</div>
-      <div>This is {title}</div>
-      <div>This is {handle}</div>
+      
     </div>
   );
 }
